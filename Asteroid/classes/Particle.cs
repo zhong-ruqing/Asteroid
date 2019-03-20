@@ -18,9 +18,14 @@ namespace Asteroid
             this.Mass = mass;
         }
 
+        public double DistanceTo(Particle particle)
+        {
+            return this.Position.DistanceTo(particle.Position);
+        }
+
         public override string ToString()
         {
-            return $"Particle(Position: ({this.Position.X}, {this.Position.Y}, {this.Position.Z}), Mass: {this.Mass})";
+            return $"particle(position: ({this.Position.X}, {this.Position.Y}, {this.Position.Z}), mass: {this.Mass})";
         }
     }
 }

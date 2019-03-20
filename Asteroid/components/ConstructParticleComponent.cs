@@ -53,7 +53,7 @@ namespace Asteroid
         {
             Point3d point = Point3d.Origin;
             double mass = 0.0;
-
+            
             DA.GetData(0, ref point);
             DA.GetData(1, ref mass);
 

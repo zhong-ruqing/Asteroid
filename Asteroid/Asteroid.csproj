@@ -60,6 +60,7 @@
     <Compile Include="AsteroidInfo.cs" />
     <Compile Include="classes\Particle.cs" />
     <Compile Include="components\ConstructParticleComponent.cs" />
+    <Compile Include="components\ParticleComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -71,7 +72,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).gha"
+    <PostBuildEvent>Copy "$(TargetPath)" "C:\Users\77777777\AppData\Roaming\Grasshopper\Libraries\Asteroid.gha"
 Erase "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
