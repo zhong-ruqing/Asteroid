@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="AsteroidComponent.cs" />
     <Compile Include="AsteroidInfo.cs" />
+    <Compile Include="classes\Particle.cs" />
+    <Compile Include="components\ConstructParticleComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
